@@ -114,7 +114,7 @@ window.addEventListener("load", function(event) {
 
   /* Now my image is loaded into the assets manager instead of the display object.
   The callback starts the game engine when the graphic is loaded. */
-  assets_manager.loadTileSetImage("rabbit-trap.png", () => {
+  assets_manager.loadTileSetImage("plague-doctor.png", () => {
 
     resize();
     engine.start();

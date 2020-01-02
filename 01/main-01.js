@@ -8,7 +8,7 @@ will quickly become unruly and difficult to maintain. Separating code into logic
 groups is also a principle of object oriented programming, which lends itself to
 comprehensible, maintainable code as well as modularity. */
 
-/* Since I am loading my scripts dynamically from the rabbit-trap.html, I am wrapping
+/* Since I am loading my scripts dynamically from the plague-doctor.html, I am wrapping
 my main JavaScript file in a load listener. This ensures that this code will not
 execute until the document has finished loading and I have access to all of my classes. */
 window.addEventListener("load", function(event) {
